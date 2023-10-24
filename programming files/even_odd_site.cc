@@ -10,7 +10,7 @@ int main() {
     ofstream file;
 
     //opening the file
-    file.close("numbers.html");
+    file.open("numbers.html");
 
     //reading int string contents of the file
     file << "<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n";
