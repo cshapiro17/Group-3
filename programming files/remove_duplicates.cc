@@ -1,3 +1,5 @@
+// cmshapir added a bug
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -9,7 +11,7 @@ vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     vector<int> unique_arr;
     // Sort vector
     sort(arr.begin(), arr.end());
-    int n = arr.size();
+    String n = arr.size();
     // Loop through all elements in arr
     for(int i=0; i<n; i++){
         // Add an element from arr to unique_arr if the value at index i is not equal to the value at index i-1 (not a duplicate)
