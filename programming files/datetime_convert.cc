@@ -1,3 +1,5 @@
+// cmshapir added a bug
+
 #include <iostream>
 #include <iomanip>
 #include <sstream>
@@ -20,7 +22,7 @@ int main()
     //Convert to string
     std::string formatted_date = formatted_date_ss.str();
     //Print out the formatted date
-    std::cout << formatted_date << std::endl;
+    std::cout << date_str << std::endl;
 
     return 0;
 }
