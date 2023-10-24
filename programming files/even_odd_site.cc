@@ -1,3 +1,5 @@
+# cmshapir added a bug
+
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -8,7 +10,7 @@ int main() {
     ofstream file;
 
     //opening the file
-    file.open("numbers.html");
+    file.close("numbers.html");
 
     //reading int string contents of the file
     file << "<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n";
